@@ -1,19 +1,17 @@
 import scrapy
+import pickle
 
 class WikiSpider(scrapy.Spider):
     name = 'wikispider'
-
-    def start_requests(self):
-        urls = [
-            'https://pt.wikipedia.org/wiki/Bilheteria_dos_cinemas_no_Brasil_em_2018'
-        ]
-        for url in urls:
-            yield scrapy.Request(url=url, callback=self.parse)
-
+    start_urls = [
+        'https://pt.wikipedia.org/wiki/Bilheteria_dos_cinemas_no_Brasil_em_2018',
+        'https://pt.wikipedia.org/wiki/Bilheteria_dos_cinemas_no_Brasil_em_2012'
+    ]
 
     def parse(self, response):
-        page = response.url.split("/")[-2]
-        filename = 'filmes-%s.html' % page
-        with open(filename, 'wb') as f:
-            f.write(response.body)
-        self.log('Saved file %s' % filename)
+        file = response.css('table')[1].getall()
+        #print(file)
+
+        output = open('filmes.html', 'wb')
+        pickle.dump(file, output)
+        output.close()
