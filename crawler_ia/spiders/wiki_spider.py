@@ -1,10 +1,12 @@
 import scrapy
 import pickle
 
+url = input('Digite a url')
+
 class WikiSpider(scrapy.Spider):
     name = 'wikispider'
     start_urls = [
-        'https://pt.wikipedia.org/wiki/Bilheteria_dos_cinemas_no_Brasil_em_2018'
+        url
     ]
 
     def parse(self, response):

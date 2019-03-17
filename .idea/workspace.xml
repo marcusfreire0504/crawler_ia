@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98a22444-0cc4-4b0c-8e3e-346a1d0c3523" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/read_dataset/read_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler_ia/spiders/wiki_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_ia/spiders/wiki_spider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filmes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_dataset/read_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_dataset/read_dataset.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler_ia/spiders/wiki_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="275">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -27,11 +28,34 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filmes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler_ia/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler_ia/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/read_dataset/read_dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="50">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -56,8 +80,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/crawler_ia/spiders/wiki_spider.py" />
         <option value="$PROJECT_DIR$/read_dataset/read_dataset.py" />
+        <option value="$PROJECT_DIR$/crawler_ia/spiders/wiki_spider.py" />
       </list>
     </option>
   </component>
@@ -88,6 +112,12 @@
             <path>
               <item name="crawler_ia" type="b2602c69:ProjectViewProjectNode" />
               <item name="crawler_ia" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler_ia" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler_ia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler_ia" type="462c0819:PsiDirectoryNode" />
               <item name="read_dataset" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -113,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.read_dataset">
+  <component name="RunManager" selected="Python.wiki_spider">
     <configuration name="read_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawler_ia" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,8 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.read_dataset" />
         <item itemvalue="Python.wiki_spider" />
+        <item itemvalue="Python.read_dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -184,8 +214,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32733223" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32733223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -203,33 +233,41 @@
     <entry file="file://$PROJECT_DIR$/filmes-wiki.csv" />
     <entry file="file://$PROJECT_DIR$/filmes-wiki.html" />
     <entry file="file://$PROJECT_DIR$/filename.txt" />
+    <entry file="file://$PROJECT_DIR$/filmes" />
+    <entry file="file://$PROJECT_DIR$/crawler_ia/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawler_ia/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="350">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filmes" />
-    <entry file="file://$PROJECT_DIR$/filmes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler_ia/spiders/wiki_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="275">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/filmes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler_ia/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/read_dataset/read_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="50">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
